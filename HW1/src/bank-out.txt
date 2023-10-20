@@ -1,0 +1,12 @@
+id: 1, amount: 100.0, person: name='Kostia, surname='Stepanenko, cnp='cnp-1111
+id: 2, amount: 200.0, person: name='Kostia, surname='Stepanenko, cnp='cnp-1111
+id: 104, amount: 500.0, person: name='Olesia, surname='Stepanenko, cnp='cnp-222
+id: 4, amount: 400.0, person: name='Kostia, surname='Stepanenko, cnp='cnp-1111
+id: 102, amount: 300.0, person: name='Olesia, surname='Stepanenko, cnp='cnp-222
+id: 6, amount: 600.0, person: name='Kostia, surname='Stepanenko, cnp='cnp-1111
+id: 103, amount: 400.0, person: name='Olesia, surname='Stepanenko, cnp='cnp-222
+id: 8, amount: 800.0, person: name='Kostia, surname='Stepanenko, cnp='cnp-1111
+id: 9, amount: 900.0, person: name='Kostia, surname='Stepanenko, cnp='cnp-1111
+id: 10, amount: 1000.0, person: name='Kostia, surname='Stepanenko, cnp='cnp-1111
+id: 100, amount: 100.0, person: name='Olesia, surname='Stepanenko, cnp='cnp-222
+id: 101, amount: 200.0, person: name='Olesia, surname='Stepanenko, cnp='cnp-222
