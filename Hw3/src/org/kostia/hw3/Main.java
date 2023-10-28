@@ -45,7 +45,7 @@ public class Main {
         Deck fullDeck = newDeck();
         fullDeck.shuffle();
 
-        int cardsPerPerPlayer = fullDeck.cardsCount() / 4;
+        int cardsPerPerPlayer = fullDeck.cardsCount() / playersCount;
 
         Deck[] playerDecks = new Deck[playersCount];
 
@@ -60,6 +60,12 @@ public class Main {
         int movesCnt = 0;
 
         while (true) {
+
+            if( movesCnt > 10_000){
+                System.err.println("Too many iteration of a game detected. Skipping one.");
+                break;
+            }
+
             if (!allHasCards(playerDecks)) {
                 break;
             }
@@ -117,6 +123,7 @@ public class Main {
                     }
                 }
                 else {
+                    // WAR move started
                     /*
                      * Most descriptions of War are unclear about what happens if a player runs out of cards
                      * during a war. In some variants, that player immediately loses.

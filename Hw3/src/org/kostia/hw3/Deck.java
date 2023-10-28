@@ -2,17 +2,17 @@ package org.kostia.hw3;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Deck {
 
-    // 5, d, 1, 2, 3, 4
-    // a, b, c
     private final List<PlayingCard> cards = new ArrayList<>();
 
     public void addCard(PlayingCard newCard){
         cards.add(0, newCard);
     }
+
     public PlayingCard removeCard(){
         if( cards.isEmpty() ){
             throw new IllegalStateException("Deck is empty, can't remove card");
